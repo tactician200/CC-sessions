@@ -1,0 +1,11 @@
+.build/
+.swiftpm/
+build/
+*.xcodeproj
+.DS_Store
+Package.resolved
+.vscode/
+.idea/
+.claude/worktrees/
+__pycache__/
+*.pyc

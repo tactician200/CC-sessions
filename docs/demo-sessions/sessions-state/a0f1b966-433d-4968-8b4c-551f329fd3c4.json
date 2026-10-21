@@ -1,0 +1,11 @@
+{
+  "v": 1,
+  "session_id": "a0f1b966-433d-4968-8b4c-551f329fd3c4",
+  "cwd": "/Users/alex/code/data-pipeline",
+  "transcript_path": "projects/-Users-alex-code-data-pipeline/a0f1b966-433d-4968-8b4c-551f329fd3c4.jsonl",
+  "status": "done",
+  "status_since": -11400,
+  "updated_at": -11400,
+  "last_prompt": "Retry the nightly export when the warehouse times out",
+  "last_prompt_at": -11430
+}

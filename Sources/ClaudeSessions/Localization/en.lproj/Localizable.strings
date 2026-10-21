@@ -1,0 +1,98 @@
+/* English (base). Keys are semantic; es.lproj must have the same keys and the
+   same format specifiers (checked by the DEBUG l10n self-test). */
+
+/* Header */
+"header.waiting.one" = "%d waiting";
+"header.waiting.other" = "%d waiting";
+"header.working" = "%d working";
+"pin.help.on" = "Unpin (close the floating panel)";
+"pin.help.off" = "Keep on screen";
+"pin.a11y.on" = "Unpin panel";
+"pin.a11y.off" = "Pin panel";
+"tab.sessions" = "Sessions";
+"tab.usage" = "Usage";
+"statusItem.a11y" = "Claude Sessions: %1$d of %2$d working";
+"statusItem.a11y.waiting" = ", %d waiting for you";
+
+/* Sessions tab */
+"empty.title" = "No active sessions";
+"empty.hint" = "Open Claude Code in any project";
+"subagents.header" = "SUBAGENTS";
+"state.waiting" = "Waiting for you";
+"state.working" = "Working";
+"state.inactive" = "Inactive";
+"state.finished" = "Finished";
+"activity.running" = "Running %@";
+"activity.subagents.one" = "%d subagent";
+"activity.subagents.other" = "%d subagents";
+"metric.context" = "ctx / %@";
+"metric.used" = "used";
+"metric.help" = "Context now: %1$@ of %2$@ · Used in the session: %3$@\nClick: switch between context and used";
+"ago.seconds" = "%d s ago";
+"ago.minutes" = "%d min ago";
+"ago.hours" = "%d h ago";
+"ago.hoursMinutes" = "%1$d h %2$d min ago";
+
+/* Waiting reasons written by the hook (it writes them in Spanish) */
+"reason.question" = "Question";
+"reason.plan" = "Plan to approve";
+"reason.permission" = "Permission";
+"reason.permissionTool" = "Permission: %@";
+"reason.held" = "Confirm: %@ on hold";
+
+/* Floating alerts */
+"toast.more" = "+%d more";
+"toast.waiting" = "waiting for you";
+"toast.finished" = "finished";
+"toast.clickToGo" = "click to go";
+"toast.done" = "Done";
+
+/* Footer and settings */
+"footer.inContext" = "in context";
+"footer.inContext.help" = "Context loaded right now across the open sessions";
+"footer.subagents" = "subagents";
+"settings.launchAtLogin" = "Open at login";
+"settings.toasts" = "Floating alerts";
+"settings.quietInWindow" = "Stay quiet if I'm already in that window…";
+"settings.quit" = "Quit";
+"settings.help" = "Settings";
+
+/* Usage tab */
+"usage.session" = "Current session (5 h)";
+"usage.weekly" = "Weekly (7 d)";
+"usage.resetsIn" = "Resets in %@";
+"usage.resetsNow" = "Resets now";
+"usage.byModel" = "BY MODEL (7 d)";
+"usage.loading" = "Loading usage…";
+"usage.retry" = "Retry";
+"usage.extra" = "Extra usage";
+"usage.extra.on" = "%@ used · pay-as-you-go on";
+"usage.extra.off" = "%@ used · pay-as-you-go off";
+"usage.footer.error" = "oauth/usage · error";
+"usage.footer.cache" = "oauth/usage · cache 3 min";
+"usage.updated" = "updated %@";
+"usage.refresh" = "Refresh now";
+"percent" = "%@%%";
+
+/* Weekday pace */
+"pace.title" = "Mon–Fri pace";
+"pace.today" = "Today %1$@ of %2$@";
+"pace.weekend.none" = "Weekend · %@ left · no workdays before the reset";
+"pace.weekend" = "Weekend · %1$@ left for %2$@";
+"pace.lastDay" = "%@ left · last workday before the reset";
+"pace.perDay" = "%1$@ left · from tomorrow %2$@/day (%3$@)";
+"workdays.one" = "%d workday";
+"workdays.other" = "%d workdays";
+
+/* Usage errors */
+"error.noCredentials" = "OAuth token not found";
+"error.rateLimited" = "Rate limited · retrying in %d min";
+"error.decoding" = "Couldn't decode the response";
+"error.insecureEndpoint" = "Usage endpoint not allowed";
+"error.throttled" = "Wait a few seconds before retrying";
+
+/* Panel warnings */
+"warning.hookPython" = "The tracking hook needs Python 3.9+";
+"warning.upstreamTracker" = "Uninstall claude-sessions-tracker (conflicts with this app's hook)";
+"warning.updateApp" = "Update the app (the hook writes a newer format)";
+"warning.updatePlugin" = "Update the plugin (it writes an older format)";

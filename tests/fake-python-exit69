@@ -1,0 +1,4 @@
+#!/bin/sh
+# Stand-in for the macOS /usr/bin/python3 stub when the Xcode license has not
+# been accepted: exits 69 before running anything. Used by the launcher check.
+exit 69

@@ -1,0 +1,14 @@
+{
+  "name": "cc-sessions",
+  "owner": {
+    "name": "tactician200",
+    "url": "https://github.com/tactician200"
+  },
+  "plugins": [
+    {
+      "name": "claude-sessions-state",
+      "source": "./plugin",
+      "description": "Per-session state hook for the Claude Sessions menu bar app: tracks working, waiting (question, plan approval, permission) and done for every Claude Code session."
+    }
+  ]
+}

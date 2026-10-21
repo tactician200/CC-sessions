@@ -1,0 +1,16 @@
+{
+  "v": 1,
+  "session_id": "9f55f478-4479-4b56-974a-8d52fc728adf",
+  "cwd": "/Users/alex/code/billing-service",
+  "transcript_path": "projects/-Users-alex-code-billing-service/9f55f478-4479-4b56-974a-8d52fc728adf.jsonl",
+  "status": "working",
+  "status_since": -260,
+  "updated_at": -20,
+  "last_prompt": "Audit how invoices round currency amounts and propose a fix",
+  "last_prompt_at": -290,
+  "last_activity": "Agent: review currency conversion",
+  "pending_tools": {
+    "toolu_01yonAZ9R7wSLJAzgbKQwUGP": "Agent",
+    "toolu_01b0uN0pkKXTQDPiFzR8jRz6": "Agent"
+  }
+}

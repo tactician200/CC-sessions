@@ -1,0 +1,9 @@
+{
+  "name": "claude-sessions-state",
+  "description": "Writes per-session Claude Code state (working, waiting, done) to ~/.claude/sessions-state so the Claude Sessions menu bar app can show precise status.",
+  "version": "0.1.0",
+  "author": {
+    "name": "tactician200",
+    "url": "https://github.com/tactician200"
+  }
+}

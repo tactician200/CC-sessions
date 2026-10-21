@@ -1,0 +1,15 @@
+{
+  "v": 1,
+  "session_id": "e8d5efe9-42c7-41ea-b55b-ea065f60d164",
+  "cwd": "/Users/alex/code/demo-web",
+  "transcript_path": "projects/-Users-alex-code-demo-web/e8d5efe9-42c7-41ea-b55b-ea065f60d164.jsonl",
+  "status": "working",
+  "status_since": -38,
+  "updated_at": -20,
+  "last_prompt": "Validate the checkout form fields and show inline errors",
+  "last_prompt_at": -68,
+  "last_activity": "Edit: CheckoutForm.tsx",
+  "pending_tools": {
+    "toolu_01FvEcsLrW4t1orkMvtbooiU": "Edit"
+  }
+}

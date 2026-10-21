@@ -1,0 +1,11 @@
+{
+  "v": 1,
+  "session_id": "113bef58-434b-4699-8099-933fbe64fa6c",
+  "cwd": "/Users/alex/code/mobile-app",
+  "transcript_path": "projects/-Users-alex-code-mobile-app/113bef58-434b-4699-8099-933fbe64fa6c.jsonl",
+  "status": "done",
+  "status_since": -420,
+  "updated_at": -420,
+  "last_prompt": "The badge count stays at 1 after reading all notifications",
+  "last_prompt_at": -450
+}

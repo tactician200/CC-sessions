@@ -1,0 +1,98 @@
+/* Español. Mismas claves y especificadores de formato que en.lproj
+   (lo revisa el self-test l10n de DEBUG). */
+
+/* Header */
+"header.waiting.one" = "%d te espera";
+"header.waiting.other" = "%d te esperan";
+"header.working" = "%d trabajando";
+"pin.help.on" = "Soltar (cerrar panel flotante)";
+"pin.help.off" = "Fijar en pantalla";
+"pin.a11y.on" = "Soltar panel";
+"pin.a11y.off" = "Fijar panel";
+"tab.sessions" = "Sesiones";
+"tab.usage" = "Uso";
+"statusItem.a11y" = "Claude Sessions: %1$d trabajando de %2$d";
+"statusItem.a11y.waiting" = ", %d te esperan";
+
+/* Pestaña Sesiones */
+"empty.title" = "No hay sesiones activas";
+"empty.hint" = "Abre Claude Code en algún proyecto";
+"subagents.header" = "SUBAGENTES";
+"state.waiting" = "Te espera";
+"state.working" = "Trabajando";
+"state.inactive" = "Inactiva";
+"state.finished" = "Terminó";
+"activity.running" = "Ejecutando %@";
+"activity.subagents.one" = "%d subagente";
+"activity.subagents.other" = "%d subagentes";
+"metric.context" = "ctx / %@";
+"metric.used" = "usados";
+"metric.help" = "Contexto ahora: %1$@ de %2$@ · Usados en la sesión: %3$@\nClick: cambiar entre contexto y usados";
+"ago.seconds" = "hace %d s";
+"ago.minutes" = "hace %d min";
+"ago.hours" = "hace %d h";
+"ago.hoursMinutes" = "hace %1$d h %2$d min";
+
+/* Motivos de espera que escribe el hook */
+"reason.question" = "Pregunta";
+"reason.plan" = "Plan por aprobar";
+"reason.permission" = "Permiso";
+"reason.permissionTool" = "Permiso: %@";
+"reason.held" = "Confirma: %@ retenido";
+
+/* Avisos flotantes */
+"toast.more" = "+%d más";
+"toast.waiting" = "te espera";
+"toast.finished" = "terminó";
+"toast.clickToGo" = "clic para ir";
+"toast.done" = "Listo";
+
+/* Pie y ajustes */
+"footer.inContext" = "en contexto";
+"footer.inContext.help" = "Suma del contexto cargado ahora en las sesiones abiertas";
+"footer.subagents" = "subagentes";
+"settings.launchAtLogin" = "Abrir al iniciar sesión";
+"settings.toasts" = "Avisos flotantes";
+"settings.quietInWindow" = "Silenciar si ya estoy en esa ventana…";
+"settings.quit" = "Salir";
+"settings.help" = "Ajustes";
+
+/* Pestaña Uso */
+"usage.session" = "Sesión actual (5 h)";
+"usage.weekly" = "Semanal (7 d)";
+"usage.resetsIn" = "Se reinicia en %@";
+"usage.resetsNow" = "Se reinicia ahora";
+"usage.byModel" = "POR MODELO (7 d)";
+"usage.loading" = "Cargando uso…";
+"usage.retry" = "Reintentar";
+"usage.extra" = "Uso extra";
+"usage.extra.on" = "%@ usado · pago por uso activo";
+"usage.extra.off" = "%@ usado · pago por uso inactivo";
+"usage.footer.error" = "oauth/usage · error";
+"usage.footer.cache" = "oauth/usage · cache 3 min";
+"usage.updated" = "actualizado %@";
+"usage.refresh" = "Actualizar ahora";
+"percent" = "%@ %%";
+
+/* Ritmo lun–vie */
+"pace.title" = "Ritmo lun–vie";
+"pace.today" = "Hoy %1$@ de %2$@";
+"pace.weekend.none" = "Fin de semana · quedan %@ · sin días hábiles antes del reinicio";
+"pace.weekend" = "Fin de semana · quedan %1$@ para %2$@";
+"pace.lastDay" = "Quedan %@ · último día hábil antes del reinicio";
+"pace.perDay" = "Quedan %1$@ · desde mañana %2$@/día (%3$@)";
+"workdays.one" = "%d día hábil";
+"workdays.other" = "%d días hábiles";
+
+/* Errores de uso */
+"error.noCredentials" = "No se encontró el token OAuth";
+"error.rateLimited" = "Límite de solicitudes alcanzado · reintento en %d min";
+"error.decoding" = "No se pudo decodificar la respuesta";
+"error.insecureEndpoint" = "Destino de uso no permitido";
+"error.throttled" = "Espera unos segundos antes de reintentar";
+
+/* Avisos del panel */
+"warning.hookPython" = "El hook necesita Python 3.9+";
+"warning.upstreamTracker" = "Desinstala claude-sessions-tracker (choca con el hook de esta app)";
+"warning.updateApp" = "Actualiza la app (el hook escribe un formato más nuevo)";
+"warning.updatePlugin" = "Actualiza el plugin (escribe un formato antiguo)";
